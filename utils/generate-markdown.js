@@ -36,11 +36,18 @@ function generateMarkdown(data) {
     {license: 'University of Illinois/NCSA Open Source License', key: 'ncsa',},
     {license: 'The Unlicense', key: 'unlicense',},
     {license: 'zLib License', key: 'zlib',},
-
   ]
 
-    return `# ${data.title}
-![License: ${data.license}](https://img.shields.io/badge/License-${data.license}-blue.svg)
+  function getLicenseKey (inputLicense) {
+    for(let i=0; i<licenses.length; i++) {
+      if(licenses[i].license === inputLicense) {
+        return licenses[i].key
+      }
+    }
+  }
+
+  return `# ${data.title}
+![License: ${data.license}](https://img.shields.io/badge/License-${getLicenseKey(data.license)}-blue.svg)
 ## Description 
 ${data.description}
 ## Table of Contents 
@@ -65,7 +72,7 @@ ${data.test}\n
 If you have any questions, contact me:\n
 Email: ${data.email}\n
 [GitHub Profile](https://github.com/${data.github})`;
-  }
+}
   
 //   export generateMarkdown as a utility
 module.exports = { generateMarkdown }
