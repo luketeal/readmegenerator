@@ -47,7 +47,7 @@ function generateMarkdown(data) {
   }
 
   return `# ${data.title}
-![License: ${data.license}](https://img.shields.io/badge/License-${getLicenseKey(data.license)}-blue.svg)
+![License: ${data.license}](https://img.shields.io/static/v1?label=License&message=${getLicenseKey(data.license)}&color=blue)
 ## Description 
 ${data.description}
 ## Table of Contents 
