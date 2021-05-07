@@ -1,7 +1,7 @@
 // Include file system and inquirer packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
-const { generateMarkdown } = require('./utils/generate-markdown.js')
+const { generateMarkdown } = require('./utils/generate-markdown')
 
 // Create an array of questions for user input
 const questions = [
@@ -103,6 +103,7 @@ function init () {
                 }
             )
         })
+        .catch((err) => console.error(err));
 }
 
 // Function call to initialize app

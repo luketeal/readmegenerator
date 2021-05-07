@@ -6,4 +6,4 @@ function generateMarkdown(data) {
   }
   
 //   export generateMarkdown as a utility
-  module.exports = generateMarkdown;
+module.exports = { generateMarkdown }
