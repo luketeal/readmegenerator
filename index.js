@@ -73,7 +73,8 @@ const questions = [
             'SIL Open Font License 1.1',
             'University of Illinois/NCSA Open Source License',
             'The Unlicense,zLib License',
-        ]
+        ],
+        default: 'MIT',
     },
     {
         type: 'input',
