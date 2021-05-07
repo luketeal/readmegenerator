@@ -53,22 +53,22 @@ const questions = [
     },
 ];
 
-// Create a function to write README file
-
 // Create a function to initialize app
 function init () {
     inquirer
         // Prompt the user
         .prompt ([...questions])
-        // then pass the rosponses to the generateMarkdown function 
+        // then pass the rosponses to the generateMarkdown function and write the response to a file
         .then((responses) => {
-            fs.writeFile(
+            fs.writeFile('./dist/README.md',
                 generateMarkdown(responses), 
                 'utf8',
                 (err) => {
                     err ? console.error(err) : console.log("success");
-              })
+                }
+            )
         })
 }
+
 // Function call to initialize app
 init ()
