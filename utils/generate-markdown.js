@@ -7,21 +7,21 @@ ${data.description}
 ## Table of Contents 
 * [Description](#Description)  
 * [Installation](#Installation)  
+* [License](#License) 
 * [Usage](#Usage)  
 * [Contributing](#Contributing)  
 * [Tests](#Tests)  
 * [Questions](#Questions)  
-* [License](#License)  
 ## Installation 
-${data.installation}
+${data.installation}\n
 ## Usage 
-${data.usage}
+${data.usage}\n
 ## License
-${data.title} is licensed under ${data.license}
+${data.title} is licensed under ${data.license}\n
 ## Contributing 
-${data.contribute}
+${data.contribute}\n
 ## Tests
-${data.test}
+${data.test}\n
 ## Questions
 If you have any questions, contact me:\n
 Email: ${data.email}\n
