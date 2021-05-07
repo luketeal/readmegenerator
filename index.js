@@ -95,7 +95,7 @@ function init () {
         .prompt ([...questions])
         // then pass the rosponses to the generateMarkdown function and write the response to a file
         .then((responses) => {
-            fs.writeFile('./dist/README.md',
+            fs.writeFile(`${responses.title}_README.md`,
                 generateMarkdown(responses), 
                 'utf8',
                 (err) => {
