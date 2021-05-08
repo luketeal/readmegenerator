@@ -15,6 +15,10 @@ In the terminal, navigate to the parent folder of the README Generator project f
 1. Navigate to the parent folder of the project files and run `node index.js`
 2. Answer the questions as prompted
 3. The README file is saved in the same folder named `[Application Title]_README.md`
+
+### Video
+<iframe src="https://drive.google.com/file/d/1IusxQwtQcp5RzdQLmam6yB32J2eVlAU6/preview" width="640" height="480"></iframe>
+
 ## License
 README Generator is MIT licensed
 ## Contributing 
