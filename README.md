@@ -4,10 +4,10 @@
 This is a nodejs terminal application to generate a simple README.md file
 ## Table of Contents 
 * [Description](#Description)  
-* [Installation](#Installation) 
-* [License](#License)   
+* [Installation](#Installation)  
 * [Usage](#Usage)  
 * [Repo-Contents](#Repo-Contents)  
+* [License](#License)  
 * [Contributing](#Contributing)   
 * [Questions](#Questions)  
 ## Installation 
