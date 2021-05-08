@@ -17,7 +17,7 @@ In the terminal, navigate to the parent folder of the README Generator project f
 3. The README file is saved in the same folder named `[Application Title]_README.md`
 
 ### Video
-[![Test](http://img.youtube.com/vi/vCSj920WYII/0.jpg)](http://www.youtube.com/watch?v=vCSj920WYII "Test")
+[![Test](https://img.youtube.com/vi/vCSj920WYII/0.jpg)](https://www.youtube.com/watch?v=vCSj920WYII "Test")
 
 ## License
 README Generator is MIT licensed
