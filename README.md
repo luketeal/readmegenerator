@@ -7,6 +7,7 @@ This is a nodejs terminal application to generate a simple README.md file
 * [Installation](#Installation) 
 * [License](#License)   
 * [Usage](#Usage)  
+* [Repo-Contents](#Repo-Contents)  
 * [Contributing](#Contributing)   
 * [Questions](#Questions)  
 ## Installation 
@@ -18,6 +19,10 @@ In the terminal, navigate to the parent folder of the README Generator project f
 
 ### Video
 [![Screenshot of video](./assets/screenshot.png)](https://www.youtube.com/watch?v=lEe76HnWnUI "Demo of application")
+
+## Repo-Contents
+* js files (application)
+* package.json files (run npm install to install necessary dependencies)
 
 ## License
 README Generator is MIT licensed
